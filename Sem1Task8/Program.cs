@@ -5,16 +5,8 @@
 
 Console.Write("Введите число: ");
 var numN = Convert.ToInt32(Console.ReadLine());
-// for (; negDay <= day; negDay++)
+
 for (int i = 2; i <= numN; i = i+2)
 {
     Console.Write(i+ " ");
 } 
-// Console.Write("Введите число: ");
-// var day = Convert.ToInt32(Console.ReadLine());
-// var negDay = -day;
- 
-// for (; negDay <= day; negDay++)
-// {
-   // Console.Write(negDay+ "\t");
-// } 
