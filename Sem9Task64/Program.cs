@@ -29,7 +29,7 @@ void PrintData(string msg)
     Console.WriteLine(msg);
 }
 int m = 1;
-int n = ReadData("Enetr your second number: ");
+int n = ReadData("Введите число n: ");
 string result = "";
 if (m < n) result = RecN(m, n);
 else result = RecN(n, m);
